@@ -19,7 +19,7 @@ def get_product_list(page, campaign_id, access_token):
         access_token (str): Токен авторизации.
     
     Returns:
-        (dict): Ответ на запрос. 
+        (dict): Массив с информацией о товарах, выставленных на Яндекс маркет.
     
     Example: 
         >>> print(response_object.get("result"))
