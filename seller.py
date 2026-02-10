@@ -20,7 +20,7 @@ def get_product_list(last_id, client_id, seller_token):
         seller_token (str): API токен продавца.
     
     Returns:
-        (dict): Ответ на запрос. 
+        (dict): Массив с информацией о товарах, выставленных на Ozon. 
     
     Example: 
         >>> print(response_object.get("result"))
